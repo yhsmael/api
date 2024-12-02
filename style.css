@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.container-input {
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.input-search {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(83, 166, 244);
+    color: white;
+
+}
+
+.info-perfil{
+ background-color: rgb(204, 228, 250);
+ border: bo;
+ height: 400px;
+ overflow-y: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 20px;
+ 
+}
+
+.info-perfil::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+    height: 5px; /* Altura para rolagem horizontal */
+  }
+  
+  /* Estilo do trilho da barra */
+  ::-webkit-scrollbar-track {
+  /* Cor de fundo do trilho */
+    background-color: none;
+  }
+  
+  
+
+  
+
+
+
